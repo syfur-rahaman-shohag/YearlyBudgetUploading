@@ -8,7 +8,11 @@
 USE AXDB;
 
 GO
-## DECLARE @N INTEGER = 5;
+-- DECLARE @N INTEGER = 5;
+-- N indicates the number of consecutive year columns visibility 
+-- From Year1,...,YearN in GL Budget Categories
+-- You can convert it to functions for reusbaility, 
+-- View can be directly used for Power BI or Excel Datasource
 
 CREATE VIEW GLBudgetYearlyView AS
 
